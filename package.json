@@ -38,6 +38,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "heroku-postbuild": "npm install --force",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -65,5 +66,9 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.7",
     "@types/react-currency-format": "^1.0.0"
+  },
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
   }
 }
